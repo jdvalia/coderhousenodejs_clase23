@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Adidas",
+    "price": "12000",
+    "thumbnail": "./public/images/adidas1_400.jpg",
+    "id": 1
+  },
+  {
+    "title": "Nike",
+    "price": "18000",
+    "thumbnail": "./public/images/nike1_400.jpg",
+    "id": 2
+  },
+  {
+    "title": "Topper",
+    "price": "19000",
+    "thumbnail": "./public/images/topper1_400.jpg",
+    "id": 3
+  }
+]

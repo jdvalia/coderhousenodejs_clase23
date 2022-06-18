@@ -1,0 +1,26 @@
+<style>
+    .table td,
+    .table th {
+        vertical-align: middle;
+    }
+</style>
+
+{{#if zapatillas.length}}
+<h2>Lista de Zapatillas</h2>
+<div class="table-responsive">
+    <table class="table table-dark">
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Foto</th>
+        </tr>
+        {{#each zapatillas}}
+        <tr>
+            <td>{{this.title}}</td>
+            <td>${{this.price}}</td>
+            <td><img width="50" src={{this.thumbnail}} alt="not found"></td>
+        </tr>
+        {{/each}}
+    </table>
+</div>
+{{/if}}
